@@ -1,0 +1,12 @@
+Ts_Voltage_res = 1e-3;
+ADC_gain = 3.3/(2^12);
+Voltage_sense_gain = 477.1;
+Ts_current_res = 1e-5;
+current_sense_gain = 40;
+voltage_div = 25/15;
+overcurr_thresh = 70;
+over_volt_thresh = 800;
+PWM_Period_gain = 900;
+current_min = 0;
+current_max = 25;
+synchronous_rectifier_PWM_period = 64000;
